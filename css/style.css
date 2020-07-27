@@ -1,0 +1,159 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  color: #333;
+  font-family: verdana,sans-serif;
+  margin: 0;
+
+}
+
+header{
+  background-color: #efefef;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container{
+  /* background-color: pink; */
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  /* background-color: skyblue; */
+}
+
+.icon img{
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info{
+  /* background-color: tomato; */
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+.info h1{
+  font-weight: normal;
+  font-size: 24px;
+  margin: 2;
+}
+
+.info h2{
+  font-weight: normal;
+  font-size: 17px;
+
+
+
+}
+
+.info p{
+  margin: 0;
+  margin-bottom: 3px;
+
+}
+
+.info ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li{
+  margin-right: 8px;
+
+}
+
+.info ul li img{
+  position:relative;
+  left: 0px;
+  bottom: 10px;
+
+}
+
+
+.works{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .girl img{
+  position: absolute;
+  left: 200px;
+  top: 360px
+}
+
+.shoppiggkurt img{
+  position: absolute;
+  right: 200px;
+  top: 360px;
+} */
+
+
+.works > section > img{
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+
+}
+
+.works > h1{
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Sacramento', cursive;
+  text-shadow: 2px 2px 3px white;
+
+}
+
+.dashed_line{
+  border-top: dashed 1.8px #white;
+  border-bottom: dashed 1.8px #white;
+  color: black;
+
+}
+
+section h1{
+  padding: 10px;
+  font-family: 'American Typewriter',sans-serif;
+  font-size: 32px;
+  text-shadow: 5px 5px 6px white;
+}
+
+.works section{
+  margin-bottom: 60px;
+}
+
+.works > section > h1{
+  font-weight: normal;
+  text-underline-position: auto;
+
+}
+
+
+.works p{
+  line-height: 1.8;
+  font-style: oblique;
+  color: black;
+  text-shadow: 3px 3px 3px white;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
