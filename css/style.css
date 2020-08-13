@@ -1,159 +1,154 @@
 body{
-  background-image: url(https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
-  background-color:rgba(255,255,255,0.5);
-  background-blend-mode:lighten;
   color: #333;
   font-family: verdana,sans-serif;
   margin: 0;
-
+  background-image: url(../img/floor.jpg);
+  background-size: cover;
+  background-color:rgba(0,0,0,0.6);
+  background-blend-mode: darken;
 }
 
 header{
-  background-color: #efefef;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.container{
-  /* background-color: pink; */
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  padding: 30px 4% 10px;
+  background-color: white;
+  background-color:rgba(225,225,225,0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  top: 0;
   display: flex;
   align-items: center;
 }
 
-.icon{
-  /* background-color: skyblue; */
+.header-info{
+  position: relative;
+  left: 900px;
+  display: flex;
+}
+
+h2{
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  top: 6px;
+}
+
+img{
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+
+h1{
+  margin: 0; padding: 0;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li{
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background: url(../img/disney.jpg) top center / cover no-repeat;
+  background-color:rgba(225,225,225,0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
 }
 
 .icon img{
   border-radius: 50%;
   border-width: 4px;
   border-style: solid;
-  border-color: white;
+  border-color: black;
+  position: relative;
+  top: 40px;
 }
 
 .info{
-  /* background-color: tomato; */
   margin-left: 32px;
-  margin-top: 24px;
+  margin-top: 40px;
+}
+
+.info-text{
+  margin-top: 40px;
 }
 
 .info h1{
-  font-weight: normal;
+  color: #111;
   font-size: 24px;
+  font-family: serif;
+  font-weight: bold;
   margin: 2;
-}
-
-.info h2{
-  font-weight: normal;
-  font-size: 17px;
-
-
-
+  text-shadow: 2px 2px 5px #777;
 }
 
 .info p{
+  color: #111;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 18px;
   margin: 0;
   margin-bottom: 3px;
-
+  text-shadow: 2px 2px 5px #777;
 }
 
-.info ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
+.works h1{
+  color: #fff;
+  font-family: sans-serif;
 }
 
-.info ul li{
-  margin-right: 8px;
-
+.info-title{
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 36px;
+  font-family: serif;
 }
 
-.info ul li img{
-  position:relative;
-  left: 0px;
-  bottom: 10px;
-
+.Introduction img{
+  position: relative;
+  margin: 50px;
 }
 
-
-.works{
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* .girl img{
-  position: absolute;
+.infoText1{
+  position: relative;
   left: 200px;
-  top: 360px
+  color: #fff;
 }
 
-.shoppiggkurt img{
-  position: absolute;
-  right: 200px;
-  top: 360px;
-} */
-
-
-.works > section > img{
-  border-width: 10px;
-  border-style: solid;
-  border-color: white;
-
+.infoText2{
+  position: relative;
+  left: 200px;
+  color: #fff;
 }
 
-.works > h1{
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-weight: bold;
-  font-style: italic;
-  font-family: 'Sacramento', cursive;
-  text-shadow: 2px 2px 3px white;
-
-}
-
-.dashed_line{
-  border-top: dashed 1.8px #white;
-  border-bottom: dashed 1.8px #white;
-  color: black;
-
-}
-
-section h1{
-  padding: 10px;
-  font-family: 'American Typewriter',sans-serif;
-  font-size: 32px;
-  text-shadow: 5px 5px 6px white;
-}
-
-.works section{
-  margin-bottom: 60px;
-}
-
-.works > section > h1{
-  font-weight: normal;
-  text-underline-position: auto;
-
-}
-
-
-.works p{
-  line-height: 1.8;
-  font-style: oblique;
-  color: black;
-  text-shadow: 3px 3px 3px white;
-}
-
-footer p{
-  text-align: center;
-  font-size: 14px;
-  margin-bottom: 60px;
-  color: gray;
+.infoText3{
+  position: relative;
+  left: 200px;
+  color: #fff;
 }
