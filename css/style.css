@@ -14,9 +14,9 @@ header{
   width: 100%;
   height: 55px;
   padding: 30px 4% 10px;
-  background-color: white;
-  background-color:rgba(225,225,225,0.6);
-  background-blend-mode: lighten;
+  background-color: black;
+  background-color:rgba(0,0,0,0.2);
+  background-blend-mode: darken;
   background-size: cover;
   top: 0;
   display: flex;
@@ -29,20 +29,30 @@ header{
   display: flex;
 }
 
-h2{
-  color: black;
+.sns-icon h1{
+  color: #fff;
+  position: relative;
+  right: 800px;
+  top: 17px;
+  margin: 0;
+}
+
+.sns-icon h2{
+  color: #fff;
   font-weight: normal;
   font-size: 18px;
   position: relative;
-  top: 6px;
+  bottom: 27px;
 }
 
 img{
   margin-right: 4px;
   margin-bottom: 10px;
+  position: relative;
+  top: 6px;
 }
 
-h1{
+.info h1{
   margin: 0; padding: 0;
   font-size: 20px;
 }
@@ -74,9 +84,7 @@ li{
   justify-content: center;
   align-items: center;
   height: 500px;
-  background: url(../img/disney.jpg) top center / cover no-repeat;
-  background-color:rgba(225,225,225,0.6);
-  background-blend-mode: lighten;
+  background-color:rgba(140,121,97,60%);
   background-size: cover;
 }
 
@@ -84,7 +92,7 @@ li{
   border-radius: 50%;
   border-width: 4px;
   border-style: solid;
-  border-color: black;
+  border-color: #fff;
   position: relative;
   top: 40px;
 }
@@ -99,22 +107,22 @@ li{
 }
 
 .info h1{
-  color: #111;
+  color: #fff;
   font-size: 24px;
   font-family: serif;
   font-weight: bold;
   margin: 2;
-  text-shadow: 2px 2px 5px #777;
+  /* text-shadow: 2px 2px 5px black; */
 }
 
 .info p{
-  color: #111;
+  color: #fff;
   font-family: serif;
   font-weight: bold;
   font-size: 18px;
   margin: 0;
   margin-bottom: 3px;
-  text-shadow: 2px 2px 5px #777;
+  /* text-shadow: 2px 2px 5px black; */
 }
 
 .works h1{
@@ -130,6 +138,11 @@ li{
   font-family: serif;
 }
 
+.Introduction{
+  position: relative;
+  text-align: center;
+}
+
 .Introduction img{
   position: relative;
   margin: 50px;
@@ -137,18 +150,41 @@ li{
 
 .infoText1{
   position: relative;
-  left: 200px;
+  text-align: center;
   color: #fff;
+  background-color:rgba(119,94,84,60%);
+  height: 180px;
+}
+
+.text1{
+  position: relative;
+  top: 23px;
 }
 
 .infoText2{
   position: relative;
-  left: 200px;
+  text-align: center;
   color: #fff;
+  background-color:rgba(119,94,84,60%);
+  background-size: cover;
+  height: 180px;
 }
+
+.text2{
+  position: relative;
+  top: 40px;
+}
+
 
 .infoText3{
   position: relative;
-  left: 200px;
+  text-align: center;
   color: #fff;
+  background-color:rgba(119,94,84,60%);
+  height: 180px;
+}
+
+.text3{
+  position: relative;
+  top: 22px;
 }
