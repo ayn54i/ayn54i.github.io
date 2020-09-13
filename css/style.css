@@ -44,6 +44,7 @@ header{
 }
 
 .prf h1{
+  color: #7D7D7D;
   font-family: 'Arial Black', sans-serif;
   font-size: 100px;
   position: relative;
@@ -102,7 +103,7 @@ header{
 
 .likes{
   background-color: #EEE3E3;
-  height: 400px;
+  height: 500px;
 }
 
 .likes h1{
@@ -110,4 +111,29 @@ header{
   position: relative;
   top: 20px;
   left: 50px;
+  margin-bottom: 40px;
+}
+
+.box{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #CD776C;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  height: 300px;
+}
+
+.box img{
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.box p{
+  margin: 0;
+  padding: 0;
 }
