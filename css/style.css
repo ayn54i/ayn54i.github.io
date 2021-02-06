@@ -1,139 +1,94 @@
-html{
-  overflow: auto;
-}
-
 body{
-  color: #333;
-  font-family: verdana,sans-serif;
   margin: 0;
-  background-color: #FBFAF9;
+  background-color: #B4B2AD;
   overflow-x: hidden;
 }
 
 header{
-  height: 400px;
-}
-
-.container{
-  display: flex;
-}
-
-.info{
-  display: inline-block;
-  position: relative;
-  left: 100px;
+  background-color: #EDEBEB;
+  height: 120px;
   margin: 0;
 }
-
-.info img{
+header h1{
+  margin: 0;
+  color: #585252;
   position: relative;
-  left: 300px;
-  bottom: 300px;
-  border-color: #fff;
-  border-width: 10px;
+  top: 40px;
+  left: 50px;
+  font-family: expo-serif-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+
 }
-
-.prf{
-  color: #626160;
-  font-weight: bolder;
-  font-family: 'Gurmukhi MN',sans-serif;
-  font-size: 24px;
-  position: relative;
-  left: 400px;
-  top: 170px;
-}
-
-.prf h1{
-  color: #7D7D7D;
-  font-family: 'Arial Black', sans-serif;
-  font-size: 100px;
-  position: relative;
-  bottom: 280px;
-  right: 520px;
-  text-decoration: underline;
-  text-decoration-color: #BBBAB9;
-  text-shadow: 3px 3px 4px #7B7978;
+/* ボタン全体 */
+.sns-link{
   display: flex;
-  align-items: center;
-}
-
-.prf p{
   position: relative;
-  bottom: 260px;
-  left: 200px;
+  left: 1000px;
+}
+.flowbtn12{
+  font-family:'Verdana',sans-serif;
+  border-radius: 4px;
+  display:inline-block;
+  width:160px;
+  height: 35px;
+  font-size:20px;
+  transition:.4s;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* ボタン内テキストマウスホバー時 */
+.flowbtn12:hover{
+  color:#fff!important;
   text-decoration: none;
 }
+li{
+  list-style: none;
+}
+/* Twitter */
+.flowbtn12.fl_tw2{
+  border: solid 1px #55acee;
+  color:#55acee;
+  text-align: center;
+}
+/* Twitterマウスホバー時 */
+.flowbtn12.fl_tw2:hover{
+  border:solid 1px #55acee;
+  background:#55acee;
+}
 
-.icon img{
-  display: flex;
+/* Instagram */
+.flowbtn12.insta_btn2{
+  border:solid 1px #c6529a;
+  color:#c6529a;
+  text-align: center;
+}
+/* Instagramマウスホバー時 */
+.flowbtn12.insta_btn2:hover{
+  border:solid 1px #c6529a;
+  background:#c6529a;
+}
+
+/* ボタン内テキスト調整 */
+.flowbtn12 span{
+  font-size:14px;
   position: relative;
-  bottom: 470px;
-  left: 650px;
-  margin-bottom: 30px;
+  top: 2px;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti2{
+  padding:0!important;
 }
 
-.carrer{
-  background-color: #F2F0ED;
-  margin: 0;
-  height: 345px;
+/* ボタン全体の位置 */
+.snsbtniti2{
+  display:flex;
+  flex-flow:row wrap;
 }
-
-.carrer h1{
-  color: #626160;
-  position: relative;
-  top: 20px;
-  left: 50px;
-  margin-bottom: 40px;
-}
-
-.carrer ul li, ol li {
-  color: #626160;
-  border-left: solid 6px #CD776C;/*左側の線*/
-  border-bottom: solid 2px #dadada;/*下に灰色線*/
-  background: white;
-  margin-top: 10px;
-  margin-bottom: 5px;/*下のバーとの余白*/
-  line-height: 1.5;
-  padding: 0.5em;
-  list-style-type: none!important;/*ポチ消す*/
-  font-weight: bold;
-  font-family: 'TsukuARdGothic-Regular', sans-serif;
-  width: 80%;
-}
-
-.likes{
-  background-color: #EEE3E3;
-  height: 500px;
-}
-
-.likes h1{
-  color: #626160;
-  position: relative;
-  top: 20px;
-  left: 50px;
-  margin-bottom: 40px;
-}
-
-.box{
-  display: flex;
-  margin-left: 10px;
-  margin-top: 40px;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  color: #5d627b;
-  background: white;
-  border-top: solid 5px #CD776C;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  height: 300px;
-}
-
-.box img{
-  margin-left: 30px;
-  margin-top: 30px;
-
-}
-
-.box p{
-  margin: 0;
-  padding: 0;
+/* ボタン同士の余白 */
+.snsbtniti2 li{
+  flex:0 0 48%;
+  text-align:center !important;
 }
