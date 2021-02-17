@@ -18,7 +18,7 @@ header h1{
   font-family: expo-serif-pro, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 35px;
+  font-size: 30px;
 
 }
 /* ボタン全体 */
@@ -49,14 +49,14 @@ li{
 }
 /* Twitter */
 .flowbtn12.fl_tw2{
-  border: solid 1px #55acee;
-  color:#55acee;
+  border: solid 1px #443f3f;
+  color:#443f3f;
   text-align: center;
 }
 /* Twitterマウスホバー時 */
 .flowbtn12.fl_tw2:hover{
-  border:solid 1px #55acee;
-  background:#55acee;
+  border:solid 1px #443f3f;
+  background:#708090;
 }
 
 /* Instagram */
@@ -91,4 +91,44 @@ ul.snsbtniti2{
 .snsbtniti2 li{
   flex:0 0 48%;
   text-align:center !important;
+}
+
+.prf-icon img{
+  border-radius: 50%;
+  border: 3px solid #443f3f;
+  position: relative;
+  top: 200px;
+  left: 500px;
+}
+.prf{
+  position: relative;
+  left: 700px;
+  top: 55px;
+  font-family: expo-serif-pro, serif;
+  color: #443f3f;
+}
+.prf h1{
+  font-weight: normal;
+}
+.start{
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+.btn-circle-border{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #443f3f;
+  width: 100px;
+  border: double 4px #443f3f;
+  border-radius: 3px;
+  transition: .4s;
+}
+.btn-circle-border:hover {
+  background: #909090;
+  color: #fff;
+  border: solid 2px #fff;
+
 }
