@@ -1,0 +1,23 @@
+html{
+  margin: 0;
+}
+body{
+  margin: 0;
+  background-color: #AFC09D;
+  overflow-x: hidden;
+}
+header{
+  background-color: #EDEBEB;
+  height: 120px;
+  margin: 0;
+}
+header h1{
+  margin: 0;
+  color: #585252;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  font-family: expo-serif-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;

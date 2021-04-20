@@ -19,8 +19,8 @@ header h1{
   font-weight: 300;
   font-style: normal;
   font-size: 30px;
-
 }
+
 /* ボタン全体 */
 .sns-link{
   display: flex;
@@ -93,6 +93,11 @@ ul.snsbtniti2{
   text-align:center !important;
 }
 
+.name{
+  position:relative;
+  bottom: 70px;
+}
+
 .prf-icon img{
   border-radius: 50%;
   border: 3px solid #443f3f;
@@ -113,7 +118,7 @@ ul.snsbtniti2{
 .start{
   position: relative;
   text-align: center;
-  top: 200px;
+  top: 150px;
 }
 .btn-circle-border{
   display: inline-block;
