@@ -1,10 +1,15 @@
 html{
   overflow-x: hidden;
+  height: 100%;
 }
 body{
   background-color: #B4B2AD;
   margin: 0;
+  height: 100%;
   overflow-x: hidden;
+}
+main{
+  height: 100%;
 }
 
 header{
@@ -38,19 +43,143 @@ header h1{
   margin-right: 10px;
 }
 
+.main-visual{
+  background-image: url(../img/tulips.jpg);
+  /* background-color: red; */
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	height: 200px;
+}
+.name{
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: 80px;
+  width: 100%;
+}
+.prf-icon img{
+  border-radius: 50%;
+  border: 1px solid #443f3f;
+  margin-right: 20px;
+}
+.prf{
+  font-size: 10px;
+  font-family: expo-serif-pro, serif;
+  color: #443f3f;
+}
+.prf h1{
+  font-weight: normal;
+}
+.start{
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+.btn-circle-border{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #443f3f;
+  width: 100px;
+  border: double 4px #443f3f;
+  border-radius: 3px;
+  transition: .4s;
+}
+.btn-circle-border:hover {
+  background: #909090;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+footer{
+  font-family: expo-serif-pro, serif;
+  text-align: center;
+}
 
 
+@media (min-width:1200px) {
+  body{
+    background-color: #B4B2AD;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
 
+  header{
+    height: 80px;
 
+  }
+  header h1{
+    margin: 0;
+    color: #585252;
+    position: relative;
+    left: 50px;
+    font-family: expo-serif-pro, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+  }
 
-@media (min-width:768px){
+  .sns-link{
+    display: flex;
+    position: relative;
+    left: 1200px;
+    bottom: 17px;
+  }
+  .sns-link img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .main-visual{
+    background-image: url(../img/tulips.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	display: flex;
+  	align-items: center;
+  	height: 560px;
+  }
+
+  .name{
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 500px;
+    width: 100%;
+  }
+  .prf-icon img{
+    border-radius: 50%;
+    border: 1px solid #443f3f;
+    margin-right: 20px;
+    height: 130px;
+    width: 130px;
+  }
+  .prf{
+    font-size: 17px;
+    font-family: expo-serif-pro, serif;
+    color: #443f3f;
+  }
+  .prf h1{
+    font-weight: normal;
+  }
+
+  .start{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
+  footer{
+    position: relative;
+    top: 500px;
+  }
+
+}
+
+/* @media (min-width:768px){
   body{
     background-color: red;
   }
-}
-
-  @media (min-width:1200px) {
-    body{
-      background-color: blue;
-    }
-  }
+} */
