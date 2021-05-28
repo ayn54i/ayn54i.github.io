@@ -31,17 +31,6 @@ header h1{
   font-size: 17px;
 }
 
-.sns-link{
-  display: flex;
-  position: relative;
-  left: 270px;
-}
-.twitter img{
-  margin-right: 10px;
-}
-.ig img{
-  margin-right: 10px;
-}
 
 .main-visual{
   background-image: url(../img/tulip2.jpg);
