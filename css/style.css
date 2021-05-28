@@ -13,7 +13,7 @@ main{
 }
 
 header{
-  background-color: #fff;
+  background-color: #EDEBEB;
   width: 100%;
   height: 60px;
   margin: 0;
@@ -44,8 +44,7 @@ header h1{
 }
 
 .main-visual{
-  background-image: url(../img/tulips.jpg);
-  /* background-color: red; */
+  background-image: url(../img/tulip2.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -104,7 +103,6 @@ footer{
   body{
     background-color: #B4B2AD;
     margin: 0;
-    height: 100%;
     overflow-x: hidden;
   }
 
@@ -135,25 +133,26 @@ footer{
   }
 
   .main-visual{
-    background-image: url(../img/tulips.jpg);
+    background-image: url(../img/tulip2.jpg);
   	background-size: cover;
   	background-position: center;
   	display: flex;
   	align-items: center;
-  	height: 560px;
+  	height: 710px;
   }
 
   .name{
     display: flex;
     position: relative;
-    top: 170px;
+    text-align: center;
+    top: 130px;
     left: 500px;
     width: 100%;
   }
   .prf-icon img{
     border-radius: 50%;
     border: 1px solid #443f3f;
-    margin-right: 20px;
+    margin-right: 50px;
     height: 130px;
     width: 130px;
   }
@@ -169,17 +168,13 @@ footer{
   .start{
     position: relative;
     text-align: center;
-    top: 300px;
+    top: 200px;
   }
   footer{
     position: relative;
-    top: 500px;
+    top: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 }
-
-/* @media (min-width:768px){
-  body{
-    background-color: red;
-  }
-} */
