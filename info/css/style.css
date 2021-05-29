@@ -4,7 +4,7 @@ html{
 }
 body{
   margin: 0;
-  background-image: url(../img/nigth-sky4.jpg);
+  background-color: #8A9DAF;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -18,12 +18,12 @@ header h1{
   margin: 0;
   color: #585252;
   position: relative;
-  top: 20px;
+  top: 35px;
   left: 50px;
-  font-family: expo-serif-pro, serif;
+  font-family: 'Apple Symbols',sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 20px;
 }
 /* メイン */
 main{
@@ -143,7 +143,8 @@ main{
   text-align: center;
   position: relative;
   right: 700px;
-  
+  text-shadow: 2px 2px 2px #5E5D61;
+
 }
 .movie-link li a::before {
   -webkit-border-radius: 2px;

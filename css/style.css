@@ -25,7 +25,7 @@ header h1{
   position: relative;
   top: 20px;
   left: 20px;
-  font-family: expo-serif-pro, serif;
+  font-family: 'Apple Symbols',sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 17px;
@@ -87,6 +87,73 @@ footer{
   text-align: center;
 }
 
+@media (min-width:540px)  {
+  body{
+    background-color: #B4B2AD;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  header{
+    height: 80px;
+  }
+  header h1{
+    margin: 0;
+    color: #585252;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    font-family: 'Apple Symbols',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+  }
+  .main-Visual{
+    background-image: url(../img/tulip2.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	display: flex;
+  	align-items: center;
+    height: 700px;
+  }
+  .name{
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 130px;
+    left: 90px;
+    width: 100%;
+  }
+  .prf-icon img{
+    border-radius: 50%;
+    border: 1px solid #443f3f;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+  }
+  .prf{
+    font-size: 17px;
+    font-family: expo-serif-pro, serif;
+    color: #443f3f;
+    position: relative;
+    bottom: 10px;
+  }
+  .prf h1{
+    font-weight: normal;
+    font-size: 30px;
+  }
+  .start{
+    position: relative;
+    text-align: center;
+    top: 180px;
+  }
+  footer{
+    position: relative;
+    top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}
 
 @media (min-width:1200px) {
   body{
@@ -94,31 +161,19 @@ footer{
     margin: 0;
     overflow-x: hidden;
   }
-
   header{
     height: 80px;
-
   }
   header h1{
     margin: 0;
     color: #585252;
     position: relative;
     left: 50px;
-    font-family: expo-serif-pro, serif;
+    top: 30px;
+    font-family: 'Apple Symbols',sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
-  }
-
-  .sns-link{
-    display: flex;
-    position: relative;
-    left: 1200px;
-    bottom: 17px;
-  }
-  .sns-link img{
-    height: 40px;
-    width: 40px;
   }
 
   .main-visual{
@@ -149,6 +204,8 @@ footer{
     font-size: 17px;
     font-family: expo-serif-pro, serif;
     color: #443f3f;
+    position: relative;
+    top: 10px;
   }
   .prf h1{
     font-weight: normal;
