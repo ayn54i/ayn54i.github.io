@@ -1,39 +1,45 @@
 /* 全体 */
+.wrap {
+	overflow: hidden;
+}
 html{
   margin: 0;
 }
 body{
   margin: 0;
-  background-color: #8A9DAF;
+  background-color: #fff;
   background-size: cover;
   overflow-x: hidden;
 }
 /* ヘッダー */
 header{
-  background-color: #EDEBEB;
-  height: 80px;
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
   margin: 0;
+  border-bottom: 1px solid #585252;
 }
 header h1{
   margin: 0;
   color: #585252;
-  position: relative;
-  top: 35px;
-  left: 50px;
+  position: absolute;
+  left: 60px;
+  top: 33px;
   font-family: 'Apple Symbols',sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 20px;
+  font-size: 26px;
 }
 /* メイン */
 main{
   font-size: 15px;
   font-family: 'TsukuARdGothic-Regular',sans-serif;
-  color: #FFF;
+  color: #585252;
 }
 .title2 h1{
   font-size: 40px;
-  font-family: 'Andale Mono', sans-serif;
+  font-family: 'Baskerville',sans-serif;
+  font-weight: normal;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -50,8 +56,6 @@ main{
   margin-top: 50px;
 }
 .base p{
-  border-top: 1px solid #EEF0F2;
-  border-bottom: 1px solid #EEF0F2;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -59,8 +63,6 @@ main{
   text-align: center;
 }
 .hobby p{
-  border-top: 1px solid #EEF0F2;
-  border-bottom: 1px solid #EEF0F2;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -162,4 +164,35 @@ main{
 }
 .movie-link li a[href*="instagram.com"]::before{
   background-color: #B0715E; content: "\f16d";
+}
+
+@media (min-width:481px){
+html{
+}
+body{
+  margin: 0;
+  background-color: #fff;
+  background-size: cover;
+  overflow-x: hidden;
+  min-width: 481px;
+}
+header{
+  background-color: #fff;
+  height: 100px;
+  margin: 0;
+  width: 100%;
+
+}
+header h1{
+  margin: 0;
+  color: #585252;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  font-family: 'Apple Symbols',sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+}
+
 }
