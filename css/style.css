@@ -32,13 +32,10 @@ header h1{
   font-size: 17px;
 }
 
-
-
 .name{
   display: flex;
 
 }
-
 
 footer{
   font-family: expo-serif-pro, serif;
@@ -68,15 +65,12 @@ footer{
   .name{
     display: flex;
   }
-
-
   footer{
     position: relative;
     top: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-
 }
 
 @media (min-width:1200px) {
@@ -101,47 +95,20 @@ footer{
     font-style: normal;
     font-size: 26px;
   }
-  .main{
-    position: relative;
-  }
-  .mainVisual {
-    display: flex;
-    position: relative;
-    left: 190px;
-    top: 45px;
-  }
-  .huwa img{
-    position: relative;
-    top: 60px;
-    left: 230px;
-    border-radius: 100px 0 0 0px;
-  }
-  .floor img{
-    position: relative;
-    top: 30px;
-    left: 230px;
-    border-radius: 0 50px 0 0;
-  }
-  .ernesta img{
-    position: relative;
-    top: 190px;
-    right: 30px;
-    border-radius: 0 0 80px 0;
-  }
   .mainTitle1 h1{
     font-family: 'Baskerville',sans-serif;
     position: relative;
-    bottom: 110px;
+    top: 100px;
     text-align: center;
     color: #585252;
     text-shadow: 1px 3px 7px #FFF;
   }
   .name{
-    display: flex;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 400px;
     background-color: #E8E4E1;
     height: 700px;
+    width: 100%;
   }
   .mainImage img{
     border-radius: 200px 20px 50px 0px;
@@ -149,6 +116,16 @@ footer{
     top: 200px;
     left: 150px;
     margin-right: 100px;
+  }
+  .title{
+    position: relative;
+    top: 30px;
+    left: 650px;
+  }
+  .title h1{
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Baskerville',sans-serif;
   }
   .mainInfo{
     position: absolute;
@@ -170,18 +147,17 @@ footer{
     width: 400px;
     height: 250px;
   }
-  .prfTitle h1{
-    font-weight: normal;
-    font-size: 40px;
-    font-family: 'Baskerville',sans-serif;
-    position: relative;
-    left: 650px;
-    top: 30px;
-  }
   .profile h1{
     font-family: 'Baskerville',sans-serif;
     font-weight: normal;
     font-size: 30px;
+  }
+  .portfolio{
+    position: absolute;
+    top: 1300px;
+    background-color: #A28E8E;
+    height: 700px;
+    width: 100%;
   }
   .start a{
     color: #585252;
@@ -189,18 +165,12 @@ footer{
     top: 570px;
     left: 840px;
   }
-  .title2 h1{
-    font-weight: normal;
-    font-size: 40px;
-    font-family: 'Baskerville',sans-serif;
-    position: relative;
-    left: 680px;
-    top: 300px;
+  .ai-list{
+    margin-top: 100px;
   }
   .ai-list img{
-    position: relative;
-    top: 350px;
-    left: 200px;
+    flex-wrap: wrap;
+    margin-left: 70px;
   }
 
   footer{
