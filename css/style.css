@@ -105,7 +105,6 @@ footer{
   }
   .name{
     position: absolute;
-    top: 400px;
     background-color: #E8E4E1;
     height: 700px;
     width: 100%;
@@ -154,8 +153,8 @@ footer{
   }
   .portfolio{
     position: absolute;
-    top: 1300px;
-    background-color: #A28E8E;
+    top: 780px;
+    background-color: #fff;
     height: 700px;
     width: 100%;
   }
