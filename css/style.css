@@ -1,179 +1,145 @@
-html{
-  overflow-x: hidden;
-  height: 100%;
-}
-body{
-  background-color: #fff;
+html {
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
-}
-main{
-  height: 100%;
-}
-
-header{
-  background-color: #fff;
   width: 100%;
-  height: 60px;
-  margin: 0;
-  border-bottom: 1px solid #585252;
+  overflow-x: hidden;
 }
-
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #CCD0D9;
+}
+header {
+  margin: 0;
+  height: 80px;
+  background-color: #fff;
+}
 header h1{
   margin: 0;
-  color: #585252;
   position: relative;
-  top: 20px;
-  left: 20px;
-  font-family: 'Apple Symbols',sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 17px;
+  top: 30px;
+  left: 100px;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  font-family: 'Cochin',sans-serif;
+  font-weight: normal;
 }
-
-.name{
-  display: flex;
-
+.snsLink {
+  position:  relative;
+  left: 1000px;
+  bottom: 20px;
 }
-
-footer{
-  font-family: expo-serif-pro, serif;
+.follow-me {
+  list-style: none;
+  margin: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+.follow-me li a::before {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
   text-align: center;
+  width: 42px; /* Button width */
 }
 
-@media screen and (max-width: 959px)  {
-  body{
-    background-color: #fff;
-    margin: 0;
-    overflow-x: hidden;
-  }
-  header{
-    height: 80px;
-  }
-  header h1{
-    margin: 0;
-    color: #585252;
-    position: relative;
-    left: 50px;
-    top: 30px;
-    font-family: 'Apple Symbols',sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 26px;
-  }
-  .name{
-    display: flex;
-  }
-  footer{
-    position: relative;
-    top: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+.follow-me li a[href*="facebook.com"]::before {
+  border-color: #3b5998;
+  color: #3b5998;
+  content: "\f09a";
 }
 
-@media (min-width:1200px) {
-  body{
-    background-color: #fff;
-    margin: 0;
-    overflow-x: hidden;
-    position: relative;
-  }
-  header{
-    height: 80px;
-    overflow: hidden;
-  }
-  header h1{
-    margin: 0;
-    color: #585252;
-    position: absolute;
-    left: 60px;
-    top: 33px;
-    font-family: 'Apple Symbols',sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 26px;
-  }
-  .mainTitle1 h1{
-    font-family: 'Baskerville',sans-serif;
-    position: relative;
-    top: 100px;
-    text-align: center;
-    color: #585252;
-    text-shadow: 1px 3px 7px #FFF;
-  }
-  .name{
-    position: absolute;
-    background-color: #E8E4E1;
-    height: 700px;
-    width: 100%;
-  }
-  .mainImage img{
-    border-radius: 200px 20px 50px 0px;
-    position: absolute;
-    top: 200px;
-    left: 150px;
-    margin-right: 100px;
-  }
-  .title{
-    position: relative;
-    top: 30px;
-    left: 650px;
-  }
-  .title h1{
-    font-weight: normal;
-    font-size: 40px;
-    font-family: 'Baskerville',sans-serif;
-  }
-  .mainInfo{
-    position: absolute;
-    top: 280px;
-    left: 750px;
-  }
-  .mainInfo h1{
-    font-family: 'Baskerville',sans-serif;
-    font-weight: normal;
-    font-size: 50px;
-  }
-  .mainInfo p{
-    font-family: 'TsukuARdGothic-Regular',sans-serif;
-  }
-  .leaf-ai img{
-    position: absolute;
-    left: 900px;
-    top: 160px;
-    width: 400px;
-    height: 250px;
-  }
-  .profile h1{
-    font-family: 'Baskerville',sans-serif;
-    font-weight: normal;
-    font-size: 30px;
-  }
-  .portfolio{
-    position: absolute;
-    top: 780px;
-    background-color: #fff;
-    height: 700px;
-    width: 100%;
-  }
-  .start a{
-    color: #585252;
-    position: relative;
-    top: 570px;
-    left: 840px;
-  }
-  .ai-list{
-    margin-top: 100px;
-  }
-  .ai-list img{
-    flex-wrap: wrap;
-    margin-left: 70px;
-  }
+.follow-me li a[href*="github.com"]::before {
+  border-color: #181717;
+  color: #181717;
+  content: "\f09b";
+}
 
-  footer{
+.follow-me li a[href*="instagram.com"]::before {
+  border-color: #125688;
+  color: #125688;
+  content: "\f16d";
+}
 
-  }
+.follow-me li a[href*="twitter.com"]::before {
+  border-color: #55acee;
+  color: #55acee;
+  content: "\f099";
+}
 
+.follow-me li a[href*="youtube.com"]::before {
+  border-color: #cd201f;
+  color: #cd201f;
+  content: "\f16a";
+}
+
+.follow-me li a[href*="facebook.com"]:hover::before {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.follow-me li a[href*="github.com"]:hover::before {
+  background-color: #181717;
+  color: #fff;
+}
+
+.follow-me li a[href*="instagram.com"]:hover::before {
+  background-color: #125688;
+  color: #fff;
+}
+
+.follow-me li a[href*="twitter.com"]:hover::before {
+  background-color: #55acee;
+  color: #fff;
+}
+
+.follow-me li a[href*="youtube.com"]:hover::before {
+  background-color: #cd201f;
+  color: #fff;
+}
+
+main {
+  height: 100%;
+}
+.mainInfo{
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: 100px;
+  color: #3E3F42;
+}
+.prfImg img{
+  margin: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.prfInfo{
+  position: relative;
+  top: 30px;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',
+  sans-serif;
+}
+.prfInfo h1 {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+.prfInfo p {
+  letter-spacing: 0.15em;
+  line-height: 2.0em;
 }
