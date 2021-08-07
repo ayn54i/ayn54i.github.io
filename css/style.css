@@ -1,3 +1,4 @@
+/* 全体 */
 html {
   margin: 0;
   height: 100%;
@@ -9,6 +10,8 @@ body {
   height: 100%;
   background-color: #CCD0D9;
 }
+
+/* ヘッダー */
 header {
   margin: 0;
   height: 80px;
@@ -24,6 +27,8 @@ header h1{
   font-family: 'Cochin',sans-serif;
   font-weight: normal;
 }
+
+/* SNSリンク */
 .snsLink {
   position:  relative;
   left: 1000px;
@@ -58,64 +63,85 @@ header h1{
   text-align: center;
   width: 42px; /* Button width */
 }
-
 .follow-me li a[href*="facebook.com"]::before {
   border-color: #3b5998;
   color: #3b5998;
   content: "\f09a";
 }
-
 .follow-me li a[href*="github.com"]::before {
   border-color: #181717;
   color: #181717;
   content: "\f09b";
 }
-
 .follow-me li a[href*="instagram.com"]::before {
   border-color: #125688;
   color: #125688;
   content: "\f16d";
 }
-
 .follow-me li a[href*="twitter.com"]::before {
   border-color: #55acee;
   color: #55acee;
   content: "\f099";
 }
-
 .follow-me li a[href*="youtube.com"]::before {
   border-color: #cd201f;
   color: #cd201f;
   content: "\f16a";
 }
-
 .follow-me li a[href*="facebook.com"]:hover::before {
   background-color: #3b5998;
   color: #fff;
 }
-
 .follow-me li a[href*="github.com"]:hover::before {
   background-color: #181717;
   color: #fff;
 }
-
 .follow-me li a[href*="instagram.com"]:hover::before {
   background-color: #125688;
   color: #fff;
 }
-
 .follow-me li a[href*="twitter.com"]:hover::before {
   background-color: #55acee;
   color: #fff;
 }
-
 .follow-me li a[href*="youtube.com"]:hover::before {
   background-color: #cd201f;
   color: #fff;
 }
 
+/* メインヴィジュアル*/
 main {
   height: 100%;
+}
+
+/* About Me セクション */
+.aboutTitle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.aboutTitle h1{
+  font-family: 'Cochin',sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  position: relative;
+  color: #3E3F42;
+  text-align:  center;
+}
+.aboutTitle:before,
+.aboutTitle:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #666;
+}
+.aboutTitle:before {
+  margin-right: 3rem;
+}
+.aboutTitle:after {
+  margin-left: 3rem;
 }
 .mainInfo{
   display: flex;
@@ -142,4 +168,8 @@ main {
 .prfInfo p {
   letter-spacing: 0.15em;
   line-height: 2.0em;
+}
+.portFolio {
+  position: relative;
+  top: 200px;
 }
