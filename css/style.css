@@ -11,6 +11,40 @@ body {
   background-color: #CCD0D9;
 }
 
+/* セクション */
+section {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.secTitle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.secTitle h1{
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  position: relative;
+  color: #3E3F42;
+  text-align:  center;
+}
+.secTitle:before,
+.secTitle:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #666;
+}
+.secTitle:before {
+  margin-right: 3rem;
+}
+.secTitle:after {
+  margin-left: 3rem;
+}
+
 /* ヘッダー */
 header {
   margin: 0;
@@ -22,17 +56,18 @@ header h1{
   position: relative;
   top: 30px;
   left: 100px;
-  font-size: 30px;
-  letter-spacing: 0.2em;
-  font-family: 'Cochin',sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  font-family: 'Avenir',sans-serif;
   font-weight: normal;
+  color: #3E3F42;
 }
 
 /* SNSリンク */
 .snsLink {
   position:  relative;
   left: 1000px;
-  bottom: 20px;
+  bottom: 25px;
 }
 .follow-me {
   list-style: none;
@@ -110,40 +145,65 @@ header h1{
 }
 
 /* メインヴィジュアル*/
-main {
-  height: 100%;
+.mainVisual {
+  margin-bottom: 0;
+  text-align: center;
+  height: 830px;
+}
+.mainVisual h1 {
+  font-family: 'Avenir',sans-serif;
+  position: relative;
+  bottom: 650px;
+  right: 350px;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  color: #3E3F42;
+}
+.mainVisual p {
+  font-family: 'Avenir',sans-serif;
+  position: relative;
+  bottom: 670px;
+  right: 350px;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  color: #3E3F42;
 }
 
-/* About Me セクション */
-.aboutTitle {
+/* ポートフォリオセクション */
+.portFolio {
+  height: 900px;
+}
+
+/* バナー */
+.bannerImg {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 120px;
+  margin-left: 120px;
   position: relative;
-  top: 100px;
+  top: 200px;
 }
-.aboutTitle h1{
-  font-family: 'Cochin',sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  letter-spacing: 0.2em;
+.bannerImg img {
+  border: 10px solid #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bannerImg a {
+  text-decoration: none;
+}
+.bannerImg p {
   position: relative;
+  left: 20px;
   color: #3E3F42;
-  text-align:  center;
 }
-.aboutTitle:before,
-.aboutTitle:after {
-  content: "";
-  height: 1px;
-  flex-grow: 1;
-  background-color: #666;
+
+/* プロフィール */
+.aboutMe{
+  height: 700px;
 }
-.aboutTitle:before {
-  margin-right: 3rem;
-}
-.aboutTitle:after {
-  margin-left: 3rem;
-}
-.mainInfo{
+.profile{
   display: flex;
   position: relative;
   left: 200px;
@@ -158,18 +218,14 @@ main {
 .prfInfo{
   position: relative;
   top: 30px;
-  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',
-  sans-serif;
+  font-family: 'Avenir',sans-serif;
 }
 .prfInfo h1 {
   font-size: 30px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.3em;
+  font-weight: normal;
 }
 .prfInfo p {
   letter-spacing: 0.15em;
   line-height: 2.0em;
-}
-.portFolio {
-  position: relative;
-  top: 200px;
 }
