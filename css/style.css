@@ -168,7 +168,7 @@ header h1{
 
 /* プロフィール */
 .aboutMe{
-  height: 760px;
+  height: 800px;
 }
 .profile{
   display: flex;
@@ -212,6 +212,13 @@ span {
   line-height: 2.0em;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
+.prfInfo a {
+  color: #3E3F42;
+  font-size: 15px;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  position: relative;
+  top: 10px;
+}
 
 /* ポートフォリオセクション */
 .portFolio {
@@ -245,10 +252,22 @@ span {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
 
+/* コンタクト */
+.contactForm {
+  height: 500px;
+}
+
 /* フッター */
 footer {
   color: #3E3F42;
   font-size: 15px;
   text-align: center;
+  background-color:#E0E7F1;
+  height: 100px;
   /* margin: 20px; */
+}
+footer p {
+  position: relative;
+  top: 40px;
+
 }
