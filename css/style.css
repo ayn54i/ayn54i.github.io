@@ -8,41 +8,31 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #CCD0D9;
+  background-color: #F3F6FA;
 }
 
 /* セクション */
 section {
   margin-bottom: 50px;
+  margin-top: 50px;
   margin-top: 0;
 }
 .secTitle {
-  display: flex;
-  align-items: center;
+  text-align: center;
   position: relative;
   top: 100px;
 }
 .secTitle h1{
   font-family: 'Avenir',sans-serif;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 0.3em;
   position: relative;
   color: #3E3F42;
   text-align:  center;
 }
-.secTitle:before,
-.secTitle:after {
-  content: "";
-  height: 1px;
-  flex-grow: 1;
-  background-color: #666;
-}
-.secTitle:before {
-  margin-right: 3rem;
-}
-.secTitle:after {
-  margin-left: 3rem;
+.secTitle p {
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
 
 /* ヘッダー */
@@ -171,33 +161,6 @@ header h1{
   color: #3E3F42;
 }
 
-/* ポートフォリオセクション */
-.portFolio {
-  height: 900px;
-}
-
-/* バナー */
-.bannerImg {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 120px;
-  margin-left: 120px;
-  position: relative;
-  top: 200px;
-}
-.bannerImg img {
-  border: 10px solid #fff;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.bannerImg a {
-  text-decoration: none;
-}
-.bannerImg p {
-  position: relative;
-  left: 20px;
-  color: #3E3F42;
-}
 
 /* プロフィール */
 .aboutMe{
@@ -206,8 +169,8 @@ header h1{
 .profile{
   display: flex;
   position: relative;
-  left: 200px;
-  top: 100px;
+  left: 250px;
+  top: 150px;
   color: #3E3F42;
 }
 .prfImg img{
@@ -228,4 +191,36 @@ header h1{
 .prfInfo p {
   letter-spacing: 0.15em;
   line-height: 2.0em;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+/* ポートフォリオセクション */
+.portFolio {
+  height: 900px;
+}
+
+/* バナー */
+.pfImg {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  top: 200px;
+}
+.pfImg img {
+  border: 10px solid #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.pfImg a {
+  text-decoration: none;
+}
+.pfImg p {
+  position: relative;
+  text-align: left;
+  position: relative;left: 110px;
+  color: #3E3F42;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
