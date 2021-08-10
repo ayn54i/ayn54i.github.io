@@ -14,25 +14,29 @@ body {
 /* セクション */
 section {
   margin-bottom: 50px;
-  margin-top: 50px;
-  margin-top: 0;
 }
 .secTitle {
   text-align: center;
   position: relative;
   top: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .secTitle h1{
   font-family: 'Avenir',sans-serif;
   font-weight: normal;
   font-size: 30px;
   letter-spacing: 0.3em;
-  position: relative;
   color: #3E3F42;
   text-align:  center;
 }
 .secTitle p {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  letter-spacing: 0.15em;
+  line-height: 2.0em;
+  position: relative;
+  top: 50px;
+  color: #3E3F42;
 }
 
 /* ヘッダー */
@@ -164,19 +168,34 @@ header h1{
 
 /* プロフィール */
 .aboutMe{
-  height: 700px;
+  height: 760px;
 }
 .profile{
   display: flex;
   position: relative;
   left: 250px;
-  top: 150px;
+  top: 100px;
   color: #3E3F42;
 }
 .prfImg img{
   margin: 50px;
   border-radius: 50%;
   border: 5px solid #fff;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.bnDesign:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+.webKikuya:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+span {
+  color: #3E3F42;
 }
 .prfInfo{
   position: relative;
@@ -197,6 +216,7 @@ header h1{
 /* ポートフォリオセクション */
 .portFolio {
   height: 900px;
+  background-color: #E0E7F1;
 }
 
 /* バナー */
@@ -223,4 +243,12 @@ header h1{
   position: relative;left: 110px;
   color: #3E3F42;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+/* フッター */
+footer {
+  color: #3E3F42;
+  font-size: 15px;
+  text-align: center;
+  /* margin: 20px; */
 }
