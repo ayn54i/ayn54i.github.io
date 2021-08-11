@@ -56,6 +56,9 @@ header h1{
   font-weight: normal;
   color: #3E3F42;
 }
+header p {
+  display: none;
+}
 
 /* SNSリンク */
 .snsLink {
@@ -269,5 +272,249 @@ footer {
 footer p {
   position: relative;
   top: 40px;
+}
 
+@media screen and (max-width: 480px){
+  /* 全体 */
+  html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F3F6FA;
+  }
+
+  /* セクション */
+  section {
+    margin-bottom: 50px;
+  }
+  .secTitle {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .secTitle h1{
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    color: #3E3F42;
+    text-align:  center;
+  }
+  .secTitle p {
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 2.0em;
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    color: #3E3F42;
+  }
+
+  /* ヘッダー */
+  header {
+    margin: 0;
+    height: 100px;
+    background-color: #fff;
+  }
+  header h1{
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    color: #3E3F42;
+  }
+  header p {
+    font-size: 15px;
+
+  }
+
+  /* SNSリンク */
+  .snsLink {
+    display: none;
+  }
+  .follow-me {
+    display: none;
+  }
+  .follow-me li {
+    display: none;
+  }
+  .follow-me li a::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="instagram.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="twitter.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="instagram.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="twitter.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]:hover::before {
+    display: none;
+  }
+
+  /* メインヴィジュアル*/
+  .mainVisual {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+  }
+  .mainVisual h1 {
+    display: none;
+  }
+  .mainVisual p {
+    display: none;
+
+  }
+
+
+  /* プロフィール */
+  .aboutMe{
+    height: 800px;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    color: #3E3F42;
+  }
+  .prfImg img{
+    margin: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 80px;
+    position: relative;
+    left: : 50px;
+    text-align: center;
+  }
+  .bnDesign:hover img {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+  }
+  .webKikuya:hover img {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+  }
+  span {
+    color: #3E3F42;
+  }
+  .prfInfo{
+    position: relative;
+    top: 0px;
+    font-family: 'Avenir',sans-serif;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .prfInfo h1 {
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    font-weight: normal;
+  }
+  .prfInfo p {
+    letter-spacing: 0.15em;
+    line-height: 2.0em;
+    font-size:10px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+  .prfInfo a {
+    color: #3E3F42;
+    font-size: 15px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    position: relative;
+    top: 10px;
+  }
+
+  /* ポートフォリオセクション */
+  .portFolio {
+    height: 900px;
+    background-color: #E0E7F1;
+  }
+
+  /* バナー */
+  .pfImg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: 100px;
+  }
+  .pfImg img {
+    border: 10px solid #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 180px;
+  }
+  .pfImg a {
+    text-decoration: none;
+  }
+  .pfImg p {
+    position: relative;
+    font-size: 10px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    color: #3E3F42;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+
+  /* コンタクト */
+  .contactForm {
+    height: 300px;
+  }
+
+  /* フッター */
+  footer {
+    color: #3E3F42;
+    font-size: 15px;
+    text-align: center;
+    background-color:#E0E7F1;
+    height: 100px;
+    /* margin: 20px; */
+  }
+  footer p {
+    position: relative;
+    top: 40px;
+  }
 }
