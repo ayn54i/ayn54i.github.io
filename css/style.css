@@ -297,8 +297,7 @@ footer p {
     text-align: center;
     position: relative;
     top: 50px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 0px;
   }
   .secTitle h1{
     font-family: 'Avenir',sans-serif;
@@ -327,8 +326,9 @@ footer p {
   header h1{
     margin: 0;
     position: relative;
+    text-align: center;
     top: 40px;
-    left: 100px;
+    left: 0px;
     font-size: 20px;
     letter-spacing: 0.3em;
     font-family: 'Avenir',sans-serif;
@@ -337,7 +337,6 @@ footer p {
   }
   header p {
     font-size: 15px;
-
   }
 
   /* SNSリンク */
@@ -396,10 +395,7 @@ footer p {
   }
   .mainVisual p {
     display: none;
-
   }
-
-
   /* プロフィール */
   .aboutMe{
     height: 800px;
@@ -408,20 +404,29 @@ footer p {
     display: flex;
     flex-direction: column;
     position: relative;
+    text-align: center;
     left: 0px;
     top: 20px;
     color: #3E3F42;
   }
   .prfImg img{
-    margin: 50px;
-    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0%;
     border: 2px solid #fff;
     cursor: pointer;
     transition-duration: 0.5s;
-    width: 80px;
+    width: 200px;
     position: relative;
-    left: : 50px;
     text-align: center;
+  }
+  .bnDesign {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .webKikuya {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .bnDesign:hover img {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
@@ -438,21 +443,25 @@ footer p {
   }
   .prfInfo{
     position: relative;
-    top: 0px;
+    top: 20px;
     font-family: 'Avenir',sans-serif;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 30px;
   }
   .prfInfo h1 {
     font-size: 15px;
     letter-spacing: 0.3em;
     font-weight: normal;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
   }
   .prfInfo p {
     letter-spacing: 0.15em;
     line-height: 2.0em;
     font-size:10px;
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    text-align: left;
   }
   .prfInfo a {
     color: #3E3F42;
@@ -474,8 +483,7 @@ footer p {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 30px;
     position: relative;
     top: 100px;
   }
