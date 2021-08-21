@@ -158,3 +158,155 @@ header h1{
   bottom: 50px;
   font-size: 15px;
 }
+
+/* フッター */
+footer {
+  color: #3E3F42;
+  font-size: 15px;
+  text-align: center;
+  background-color:#E0E7F1;
+  height: 100px;
+  /* margin: 20px; */
+}
+footer p {
+  position: relative;
+  top: 40px;
+  font-family: 'Avenir',sans-serif;
+  margin: 0;
+}
+
+/* SP */
+@media screen and (max-width: 480px){
+  /* 全体 */
+  html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F3F6FA;
+  }
+
+  /* ヘッダー */
+  header {
+    margin: 0;
+    height: 100px;
+    background-color: #fff;
+  }
+  header h1{
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    left: 0px;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    color: #3E3F42;
+  }
+
+  /* メインコンテンツ */
+  .banner {
+    width: 100%;
+    height: 800px;
+  }
+  .secTitle h1 {
+  	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    color: #3E3F42;
+    text-align:  center;
+  	position: relative;
+  	margin: 0;
+  	top: 0px;
+  }
+  .secTitle {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .secTitle p {
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 2.0em;
+    position: relative;
+    top: 50px;
+    color: #3E3F42;
+    font-size: 10px;
+    margin: 30px;
+  }
+
+  /* コンテンツ */
+  .bnDesign {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap:wrap;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .bnDesign img {
+    margin: 10px;
+  }
+  .bnDesign1 img {
+    width: 270px;
+    height: 250px;
+    position: relative;
+    left: 0px;
+  }
+  .bnDesign2 img {
+    width: 250px;
+    height: 250px;
+  }
+  .bnDesign3 img {
+    height: 200px;
+    width: 350px;
+  }
+  .bnDesign4 img {
+    height: 250px;
+    width: 250px;
+  }
+  .bnDesign5 img {
+    width: 400px;
+    height: 100px;
+  }
+  .bnDesign1:hover img {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+  }
+  .bnDesign p {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    line-height: 2.0em;
+  }
+
+  /* フッター */
+  footer {
+    color: #3E3F42;
+    font-size: 15px;
+    text-align: center;
+    background-color:#E0E7F1;
+    height: 100px;
+    /* margin: 20px; */
+  }
+  footer p {
+    position: relative;
+    top: 40px;
+    margin: 0;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+}
