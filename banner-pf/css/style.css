@@ -144,7 +144,19 @@ header h1{
   flex-wrap:wrap;
   top: 200px;
 }
-.bnDesign img {
+.bnDesign1 img {
+  margin: 50px;
+}
+.bnDesign2 img {
+  margin: 50px;
+}
+.bnDesign3 img {
+  margin: 50px;
+}
+.bnDesign4 img {
+  margin: 50px;
+}
+.bnDesign5 img {
   margin: 50px;
 }
 .bnDesign1:hover img {
@@ -152,28 +164,33 @@ header h1{
   transform: translateY(-10px);
   transition-duration: 0.5s;
 }
-.bnDesign1 p {
+.bnDesign2:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+.bnDesign3:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+.bnDesign4:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+.bnDesign5:hover img {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
+.bnDesign1 p, .bnDesign2 p, .bnDesign3 p, .bnDesign4 p, .bnDesign5 p {
   position: relative;
   left: 50px;
   bottom: 50px;
   font-size: 15px;
 }
 
-/* フッター */
-footer {
-  color: #3E3F42;
-  font-size: 15px;
-  text-align: center;
-  background-color:#E0E7F1;
-  height: 100px;
-  /* margin: 20px; */
-}
-footer p {
-  position: relative;
-  top: 40px;
-  font-family: 'Avenir',sans-serif;
-  margin: 0;
-}
 
 /* SP */
 @media screen and (max-width: 480px){
@@ -244,6 +261,52 @@ footer p {
     margin: 30px;
   }
 
+  /* SNSリンク */
+  .snsLink {
+    display: none;
+  }
+  .follow-me {
+    display: none;
+  }
+  .follow-me li {
+    display: none;
+  }
+  .follow-me li a::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="instagram.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="twitter.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="instagram.com"]:hover::before {
+    background-color: #125688;
+    color: #fff;
+  }
+  .follow-me li a[href*="twitter.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]:hover::before {
+    display: none;
+  }
+
+
   /* コンテンツ */
   .bnDesign {
     display: flex;
@@ -256,36 +319,37 @@ footer p {
   }
   .bnDesign img {
     margin: 10px;
+    position: relative;
+    left: 0px;
   }
   .bnDesign1 img {
     width: 270px;
     height: 250px;
-    position: relative;
-    left: 0px;
   }
   .bnDesign2 img {
     width: 250px;
     height: 250px;
   }
   .bnDesign3 img {
-    height: 200px;
-    width: 350px;
+    height: 170px;
+    width: 300px;
   }
   .bnDesign4 img {
     height: 250px;
     width: 250px;
   }
   .bnDesign5 img {
-    width: 400px;
-    height: 100px;
+    width: 330px;
+    height: 80px;
   }
-  .bnDesign1:hover img {
+  .bnDesign1:hover img, .bnDesign2:hover img, .bnDesign3:hover img, .bnDesign4:hover img, .bnDesign5:hover img, {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
     transform: translateY(-10px);
     transition-duration: 0.5s;
   }
-  .bnDesign p {
+  .bnDesign1 p, .bnDesign2 p, .bnDesign3 p, .bnDesign4 p, .bnDesign5 p{
     position: relative;
+    top: 0px;
     left: 0px;
     bottom: 0px;
     margin-bottom: 50px;
@@ -294,19 +358,4 @@ footer p {
     line-height: 2.0em;
   }
 
-  /* フッター */
-  footer {
-    color: #3E3F42;
-    font-size: 15px;
-    text-align: center;
-    background-color:#E0E7F1;
-    height: 100px;
-    /* margin: 20px; */
-  }
-  footer p {
-    position: relative;
-    top: 40px;
-    margin: 0;
-    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-  }
 }
