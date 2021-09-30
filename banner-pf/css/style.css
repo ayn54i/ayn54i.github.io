@@ -119,7 +119,39 @@ header h1{
   text-align:  center;
 	position: relative;
 	margin: 0;
-	top: 100px;
+	top: 80px;
+}
+.kobaBanner h1 {
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.3em;
+  color: #3E3F42;
+  text-align:  center;
+  position: relative;
+  margin: 0;
+  top: 170px;
+}
+.kobaBanner p {
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  color: #3E3F42;
+  text-align:  center;
+  position: relative;
+  margin: 0;
+  top: 190px;
+}
+.Trase-title h1 {
+  font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  color: #3E3F42;
+  text-align:  center;
+  position: relative;
+  margin: 0;
+  top: 300px;
 }
 .secTitle {
   text-align: center;
@@ -127,6 +159,23 @@ header h1{
   top: 50px;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.trase1 {
+  position: relative;
+  top: 450px;
+  left: 50px;
+  display: flex;
+}
+.trase1 img {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.trase1 p {
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+  margin: 15px;
+  font-size: 25px;
 }
 .secTitle p {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
@@ -228,9 +277,20 @@ header h1{
   }
 
   /* メインコンテンツ */
-  .banner {
+  .bannerOdai {
     width: 100%;
     height: 800px;
+  }
+  .kobaBanner p {
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    color: #3E3F42;
+    text-align:  center;
+    position: relative;
+    margin: 0;
+    top: 0px;
   }
   .secTitle h1 {
   	font-family: 'Avenir',sans-serif;
