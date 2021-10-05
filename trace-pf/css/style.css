@@ -1,0 +1,185 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+	line-height: 2.0em;
+	letter-spacing: 0.2em;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #F0F0F4;
+}
+header {
+  margin: 0;
+  height: 80px;
+  background-color: #fff;
+}
+header h1{
+  margin: 0;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  color: #3E3F42;
+}
+/* SNSリンク */
+.snsLink {
+  position:  relative;
+  left: 1000px;
+  bottom: 25px;
+}
+.follow-me {
+  list-style: none;
+  margin: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+.follow-me li a::before {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 42px; /* Button width */
+}
+.follow-me li a[href*="facebook.com"]::before {
+  border-color: #3b5998;
+  color: #3b5998;
+  content: "\f09a";
+}
+.follow-me li a[href*="github.com"]::before {
+  border-color: #181717;
+  color: #181717;
+  content: "\f09b";
+}
+.follow-me li a[href*="instagram.com"]::before {
+  border-color: #125688;
+  color: #125688;
+  content: "\f16d";
+}
+.follow-me li a[href*="twitter.com"]::before {
+  border-color: #55acee;
+  color: #55acee;
+  content: "\f099";
+}
+.follow-me li a[href*="youtube.com"]::before {
+  border-color: #cd201f;
+  color: #cd201f;
+  content: "\f16a";
+}
+.follow-me li a[href*="facebook.com"]:hover::before {
+  background-color: #3b5998;
+  color: #fff;
+}
+.follow-me li a[href*="github.com"]:hover::before {
+  background-color: #181717;
+  color: #fff;
+}
+.follow-me li a[href*="instagram.com"]:hover::before {
+  background-color: #125688;
+  color: #fff;
+}
+.follow-me li a[href*="twitter.com"]:hover::before {
+  background-color: #55acee;
+  color: #fff;
+}
+.follow-me li a[href*="youtube.com"]:hover::before {
+  background-color: #cd201f;
+  color: #fff;
+}
+
+/* トレース */
+.Trase-title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.Trase-title h1 {
+  font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  color: #3E3F42;
+  text-align:  center;
+	position: relative;
+	margin: 0;
+	top: 80px;
+}
+.Trase-title p {
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  letter-spacing: 0.15em;
+  line-height: 2.0em;
+  position: relative;
+  top: 100px;
+  color: #3E3F42;
+}
+p.designIntention {
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  letter-spacing: 0.15em;
+  text-align: left;
+  line-height: 2.0em;
+  position: relative;
+  top: 200px;
+  left: 350px;
+  color: #3E3F42;
+  background-color: #f5f5dc;
+  width: 700px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.banerHikaku {
+  margin-bottom: 200px;
+}
+.trase1 {
+  position: relative;
+  top: 450px;
+  left: 50px;
+  display: flex;
+  font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
+}
+.trase1 img {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.trase1 p {
+  position: relative;
+  left: 150px;
+  bottom: 70px;
+  margin: 15px;
+  font-size: 25px;
+}
+.traceText {
+  position: relative;
+  top: 450px;
+  left: 210px;
+  text-align: left;
+  background-color: #E1E9F2;
+  padding: 20px;
+  width: 900px;
+  border-radius: 30px;
+
+}
+/*

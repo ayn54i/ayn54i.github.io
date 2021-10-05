@@ -242,15 +242,15 @@ span {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
   position: relative;
   top: 200px;
 }
 .pfImg img {
   border: 10px solid #fff;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30px;
+  margin-right: 0px;
 }
 .pfImg a {
   text-decoration: none;

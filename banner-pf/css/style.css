@@ -110,19 +110,9 @@ header h1{
 }
 
 /* メインコンテンツ */
-.secTitle h1 {
-	font-family: 'Avenir',sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  letter-spacing: 0.3em;
-  color: #3E3F42;
-  text-align:  center;
-	position: relative;
-	margin: 0;
-	top: 80px;
-}
+
 .kobaBanner h1 {
-  font-family: 'Avenir',sans-serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-weight: normal;
   font-size: 20px;
   letter-spacing: 0.3em;
@@ -143,16 +133,6 @@ header h1{
   margin: 0;
   top: 190px;
 }
-.Trase-title h1 {
-  font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
-  font-size: 40px;
-  letter-spacing: 0.3em;
-  color: #3E3F42;
-  text-align:  center;
-  position: relative;
-  margin: 0;
-  top: 300px;
-}
 .secTitle {
   text-align: center;
   position: relative;
@@ -160,30 +140,17 @@ header h1{
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.banerHikaku {
-  margin-bottom: 200px;
-
-}
-.trase1 {
-  position: relative;
-  top: 450px;
-  left: 50px;
-  display: flex;
+.secTitle h1 {
   font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
-
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  color: #3E3F42;
+  text-align:  center;
+	position: relative;
+	margin: 0;
+	top: 80px;
 }
-.trase1 img {
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-.trase1 p {
-  position: relative;
-  left: 150px;
-  bottom: 70px;
-  margin: 15px;
-  font-size: 25px;
-}
-
 .secTitle p {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   letter-spacing: 0.15em;
@@ -191,15 +158,6 @@ header h1{
   position: relative;
   top: 150px;
   color: #3E3F42;
-}
-.traceText {
-  position: relative;
-  top: 450px;
-  left: 210px;
-  text-align: left;
-  background-color: #E1E9F2;
-  padding: 20px;
-  width: 900px;
 }
 /* コンテンツ */
 .bnDesign {
