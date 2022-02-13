@@ -1,0 +1,535 @@
+/* 全体 */
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+	line-height: 2.0em;
+	letter-spacing: 0.2em;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #F0F0F4;
+}
+/* セクション */
+section {
+  margin-bottom: 0px;
+}
+
+/* ヘッダー */
+header {
+  margin: 0;
+  height: 80px;
+  background-color: #fff;
+}
+header h1{
+  margin: 0;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  color: #3E3F42;
+}
+
+/* SNSリンク */
+.snsLink {
+  position:  relative;
+  left: 1000px;
+  bottom: 25px;
+}
+.follow-me {
+  list-style: none;
+  margin: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+.follow-me li a::before {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 42px; /* Button width */
+}
+.follow-me li a[href*="facebook.com"]::before {
+  border-color: #3b5998;
+  color: #3b5998;
+  content: "\f09a";
+}
+.follow-me li a[href*="github.com"]::before {
+  border-color: #181717;
+  color: #181717;
+  content: "\f09b";
+}
+.follow-me li a[href*="instagram.com"]::before {
+  border-color: #125688;
+  color: #125688;
+  content: "\f16d";
+}
+.follow-me li a[href*="twitter.com"]::before {
+  border-color: #55acee;
+  color: #55acee;
+  content: "\f099";
+}
+.follow-me li a[href*="youtube.com"]::before {
+  border-color: #cd201f;
+  color: #cd201f;
+  content: "\f16a";
+}
+.follow-me li a[href*="facebook.com"]:hover::before {
+  background-color: #3b5998;
+  color: #fff;
+}
+.follow-me li a[href*="github.com"]:hover::before {
+  background-color: #181717;
+  color: #fff;
+}
+.follow-me li a[href*="instagram.com"]:hover::before {
+  background-color: #125688;
+  color: #fff;
+}
+.follow-me li a[href*="twitter.com"]:hover::before {
+  background-color: #55acee;
+  color: #fff;
+}
+.follow-me li a[href*="youtube.com"]:hover::before {
+  background-color: #cd201f;
+  color: #fff;
+}
+
+/* ハンバーガーメニュー */
+.hamburger {
+  display: none;
+}
+.globalMenuSp {
+  display: none;
+}
+
+/* メイン */
+.mainTitle h1 {
+	font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: #3E3F42;
+  text-align:  center;
+	position: relative;
+	margin: 0;
+	top: 100px;
+}
+/* セクションinfo */
+.info1 {
+	height: 1000px;
+}
+.info2 {
+	background-color: #fff;
+	height: 1000px;
+}
+/* 画像 */
+.prfImg img {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	opacity: 0.5;
+}
+.prfImg2 img {
+	position: relative;
+	left: 970px;
+	bottom: 200px;
+	opacity: 0.5;
+}
+.prfImg3 img {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	opacity: 0.5;
+}
+.prfImg4 img {
+	position: relative;
+	left: 1000px;
+	top: 350px;
+	opacity: 0.5;
+}
+.prfImg5 img {
+	position: relative;
+	left: 1000px;
+	bottom: 400px;
+	opacity: 0.5;
+}
+/* 文 */
+.profiles1 {
+	position: relative;
+	left:500px;
+	bottom: 280px;
+	color: #3E3F42;
+}
+.profiles2 {
+	position: relative;
+	left:500px;
+	bottom: 530px;
+	color: #3E3F42;
+}
+.profiles1 h1 {
+	font-family: 'Savoye LET',sans-serif;
+	font-size: 60px;
+	font-weight: lighter;
+}
+.profiles2 h1 {
+	font-family: 'Savoye LET',sans-serif;
+	font-size: 60px;
+	font-weight: lighter;
+}
+.profiles2 a {
+	color: #3E3F42;
+}
+.profiles1 p {
+  letter-spacing: 0.1rem;
+}
+.profiles2 p {
+  letter-spacing: 0.1rem;
+}
+/* youtubeナンバー動画 */
+.movieNum {
+	position: relative;
+	bottom: 520px;
+	left: 500px;
+	font-size: 14px;
+}
+.movieNum iframe {
+	border: 5px solid #CDCDD1;
+}
+
+/* フッター */
+footer {
+  color: #3E3F42;
+  font-size: 15px;
+  text-align: center;
+  background-color:#E0E7F1;
+  height: 100px;
+  /* margin: 20px; */
+}
+footer p {
+  position: relative;
+  top: 40px;
+  font-family: 'Avenir',sans-serif;
+  margin: 0;
+}
+
+/* SP */
+@media screen and (max-width: 480px){
+
+  /* 全体 */
+  html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F3F6FA;
+  }
+  /* セクション */
+  section {
+    margin-bottom: 0px;
+  }
+
+  /* ヘッダー */
+  header {
+    margin: 0;
+    height: 100px;
+    background-color: #fff;
+  }
+  header h1{
+    margin: 0;
+    position: relative;
+    /* text-align: center; */
+    top: 40px;
+    left: 50px;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    color: #3E3F42;
+  }
+  header p {
+    font-size: 15px;
+  }
+
+  /* SNSリンク */
+  .snsLink {
+    display: none;
+  }
+  .follow-me {
+    display: none;
+  }
+  .follow-me li {
+    display: none;
+  }
+  .follow-me li a::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]::before {
+    display: none;
+}
+  .follow-me li a[href*="instagram.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="twitter.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]::before {
+    display: none;
+  }
+  .follow-me li a[href*="facebook.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="github.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="instagram.com"]:hover::before {
+    background-color: #125688;
+    color: #fff;
+  }
+  .follow-me li a[href*="twitter.com"]:hover::before {
+    display: none;
+  }
+  .follow-me li a[href*="youtube.com"]:hover::before {
+    display: none;
+  }
+
+  /*　ハンバーガーボタン　*/
+.hamburger {
+  display : block;
+  position: fixed;
+  z-index : 3;
+  right : 13px;
+  top   : 12px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #555;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 10px;
+}
+.hamburger span:nth-child(2) {
+  top: 20px;
+}
+.hamburger span:nth-child(3) {
+  top: 30px;
+}
+
+/* ナビ開いてる時のボタン */
+.hamburger.active span:nth-child(1) {
+  top : 16px;
+  left: 6px;
+  background :#fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+  top: 16px;
+  background :#fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+
+nav.globalMenuSp {
+  position: fixed;
+  z-index : 2;
+  top  : 0;
+  left : 0;
+  color: #fff;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .6s ease, visibility .6s ease;
+}
+
+nav.globalMenuSp ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+nav.globalMenuSp ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  transition: .4s all;
+}
+nav.globalMenuSp ul li:last-child {
+  padding-bottom: 0;
+}
+nav.globalMenuSp ul li:hover{
+  background :#ddd;
+}
+
+nav.globalMenuSp ul li a {
+  display: block;
+  color: #fff;
+  padding: 1em 0;
+  text-decoration :none;
+}
+
+/* このクラスを、jQueryで付与・削除する */
+nav.globalMenuSp.active {
+  opacity: 100;
+
+}
+
+  /* メイン */
+  .mainTitle h1 {
+  	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #3E3F42;
+    text-align:  center;
+  	position: relative;
+  	margin: 0;
+  	top: 100px;
+  }
+  /* セクションinfo */
+  .info1 {
+  	height: 1000px;
+  }
+  .info2 {
+  	background-color: #fff;
+  	height: 1000px;
+  }
+  /* 画像 */
+
+  .prfImg img  {
+  	display: none;
+  }
+  .prfImg2 img {
+    width: 200px;
+    left: 30px;
+    top: 150px;
+  }
+  .prfImg3 img {
+    width: 200px;
+    top: 150px;
+    bottom: 0px;
+    left: 30px;
+ }
+  .prfImg4 img {
+    display: none;
+  }
+  .prfImg5 img {
+    display: none;
+  }
+  /* 文 */
+  .profiles1 {
+  	position: relative;
+  	left: 0px;
+  	bottom: 0px;
+    top: 200px;
+  	color: #3E3F42;
+    margin: 30px;
+  }
+  .profiles2 {
+  	position: relative;
+  	left:0px;
+  	bottom: 0px;
+    top: 200px;
+  	color: #3E3F42;
+    margin: 30px;
+  }
+  .profiles1 h1 {
+  	font-family: 'Savoye LET',sans-serif;
+  	font-size: 30px;
+  	font-weight: lighter;
+  }
+  .profiles1 p {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    line-height: 2.0em;
+  }
+  .profiles2 h1 {
+  	font-family: 'Savoye LET',sans-serif;
+  	font-size: 30px;
+  	font-weight: lighter;
+  }
+  .profiles2 p {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    line-height: 2.0em;
+  }
+  .profiles2 a {
+  	color: #3E3F42;
+  }
+  /* youtubeナンバー動画 */
+  .movieNum {
+  	position: relative;
+  	bottom: 0px;
+  	left: 0px;
+    top: 200px;
+  	font-size: 10px;
+    margin: 30px;
+    text-align: center;
+  }
+  .movieNum iframe {
+  	border: 2px solid #CDCDD1;
+    width: 250px;
+    height: 150px;
+  }
+  /* フッター */
+  footer {
+    color: #3E3F42;
+    font-size: 15px;
+    text-align: center;
+    background-color:#E0E7F1;
+    height: 100px;
+    /* margin: 20px; */
+  }
+  footer p {
+    position: relative;
+    top: 40px;
+    margin: 0;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+}

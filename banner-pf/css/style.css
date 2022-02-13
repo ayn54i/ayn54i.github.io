@@ -23,7 +23,7 @@ header h1{
   top: 30px;
   left: 100px;
   font-size: 25px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   font-family: 'Avenir',sans-serif;
   font-weight: normal;
   color: #3E3F42;
@@ -115,7 +115,7 @@ header h1{
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-weight: normal;
   font-size: 20px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
   color: #3E3F42;
   text-align:  center;
   position: relative;
@@ -126,7 +126,7 @@ header h1{
   font-family: 'Avenir',sans-serif;
   font-weight: normal;
   font-size: 15px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1rem;
   color: #3E3F42;
   text-align:  center;
   position: relative;
@@ -141,10 +141,10 @@ header h1{
   margin-bottom: 50px;
 }
 .secTitle h1 {
-  font-family: 'Bodoni 72 Smallcaps',sans-serif;  font-weight: normal;
+  font-family: 'Avenir',sans-serif;
   font-weight: normal;
-  font-size: 40px;
-  letter-spacing: 0.3em;
+  font-size: 30px;
+  letter-spacing: 0.2em;
   color: #3E3F42;
   text-align:  center;
 	position: relative;
@@ -153,7 +153,7 @@ header h1{
 }
 .secTitle p {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   line-height: 2.0em;
   position: relative;
   top: 150px;
@@ -243,7 +243,7 @@ header h1{
     top: 40px;
     left: 0px;
     font-size: 20px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     font-family: 'Avenir',sans-serif;
     font-weight: normal;
     color: #3E3F42;
@@ -258,7 +258,7 @@ header h1{
     font-family: 'Avenir',sans-serif;
     font-weight: normal;
     font-size: 20px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     color: #3E3F42;
     text-align:  center;
     position: relative;
@@ -269,7 +269,7 @@ header h1{
   	font-family: 'Avenir',sans-serif;
     font-weight: normal;
     font-size: 20px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     color: #3E3F42;
     text-align:  center;
   	position: relative;
@@ -285,7 +285,7 @@ header h1{
   }
   .secTitle p {
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     line-height: 2.0em;
     position: relative;
     top: 50px;
