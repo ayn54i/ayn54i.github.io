@@ -19,8 +19,8 @@ section {
   text-align: center;
   position: relative;
   top: 100px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .secTitle h1{
   font-family: 'Avenir',sans-serif;
@@ -29,14 +29,16 @@ section {
   letter-spacing: 0.2em;
   color: #3E3F42;
   text-align:  center;
+  margin: 10px;
 }
 .secTitle p {
-  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  font-family: 'Avenir',sans-serif;
   letter-spacing: 0.1em;
   line-height: 2.0em;
   position: relative;
-  top: 50px;
+  font-size: 13px;
   color: #3E3F42;
+  margin: 0;
 }
 
 /* ヘッダー */
@@ -188,24 +190,35 @@ span {
 .prfInfo{
   position: relative;
   top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: 'Avenir',sans-serif;
 }
 .prfInfo h1 {
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 0.2em;
   font-weight: normal;
+}
+.prfInfo h2 {
+  font-size: 16px;
+  font-family: 'Avenir',sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
 }
 .prfInfo p {
   letter-spacing: 0.15em;
   line-height: 2.0em;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .prfInfo a {
   color: #3E3F42;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   position: relative;
-  top: 10px;
+  top: 0px;
 }
 
 /* ポートフォリオセクション */

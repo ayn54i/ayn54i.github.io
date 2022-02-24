@@ -113,31 +113,3 @@ header h1{
   position: relative;
   top: 200px;
 }
-.imgMockup h1 {
-
-}
-.secTitle h1 {
-	font-family: 'Avenir',sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  letter-spacing: 0.3em;
-  color: #3E3F42;
-  text-align:  center;
-	position: relative;
-	margin: 0;
-	top: 100px;
-}
-.secTitle {
-  text-align: center;
-  position: relative;
-  top: 50px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-.secTitle p {
-  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-  letter-spacing: 0.15em;
-  line-height: 2.0em;
-  position: relative;
-  top: 150px;
-  color: #
