@@ -208,16 +208,7 @@ header h1{
 .profiles2 p {
   letter-spacing: 0.1rem;
 }
-/* youtubeナンバー動画 */
-.movieNum {
-	position: relative;
-	bottom: 520px;
-	left: 500px;
-	font-size: 14px;
-}
-.movieNum iframe {
-	border: 5px solid #CDCDD1;
-}
+
 
 /* フッター */
 footer {
@@ -502,21 +493,7 @@ nav.globalMenuSp.active {
   .profiles2 a {
   	color: #3E3F42;
   }
-  /* youtubeナンバー動画 */
-  .movieNum {
-  	position: relative;
-  	bottom: 0px;
-  	left: 0px;
-    top: 200px;
-  	font-size: 10px;
-    margin: 30px;
-    text-align: center;
-  }
-  .movieNum iframe {
-  	border: 2px solid #CDCDD1;
-    width: 250px;
-    height: 150px;
-  }
+
   /* フッター */
   footer {
     color: #3E3F42;
